@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Jhb-Ju-iCo">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fnd-hb-uOp">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,12 +13,12 @@
             <objects>
                 <viewController storyboardIdentifier="Autolayout 1" id="BYZ-38-t0r" userLabel="Autolayout 1" customClass="ViewController" customModule="Auto_Layout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aGZ-Ez-oGp" userLabel="Blue View">
-                                <rect key="frame" x="60" y="140" width="200" height="200"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="107" y="348" width="200" height="200"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="1Gj-lf-wJY"/>
                                     <constraint firstAttribute="height" constant="200" id="2yy-mq-7kP"/>
@@ -42,12 +42,12 @@
             <objects>
                 <viewController storyboardIdentifier="Autolayout 2" id="80g-iG-ehR" userLabel="Autolayout 2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vJ7-Sj-ORZ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6co-3d-BfZ" userLabel="Pink View">
-                                <rect key="frame" x="80" y="96" width="160" height="288"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="103.66666666666669" y="202.66666666666666" width="207" height="490.66666666666674"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -69,16 +69,16 @@
             <objects>
                 <viewController storyboardIdentifier="Autolayout 5" title="Autolayout 5" id="s3k-qh-G7K" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tr9-TZ-lGa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJd-6S-BrO" userLabel="Purple View">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="240"/>
-                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="409"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FN0-Lf-p5s" userLabel="Orange View">
-                                <rect key="frame" x="0.0" y="240" width="320" height="240"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="0.0" y="409" width="414" height="487"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -104,29 +104,29 @@
             <objects>
                 <viewController storyboardIdentifier="Autolayout 6" id="DrO-oC-JMP" userLabel="Autolayout 6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZkD-by-vnD">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BYg-4R-iMg">
-                                <rect key="frame" x="0.0" y="0.0" width="160" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="207" height="896"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ifB-dT-nVY">
-                                        <rect key="frame" x="0.0" y="0.0" width="160" height="154.5"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="293.33333333333331"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u9w-ze-Zj0">
-                                        <rect key="frame" x="0.0" y="162.5" width="160" height="155"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="301.33333333333337" width="207" height="293.33333333333337"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6r8-Le-BrC">
-                                        <rect key="frame" x="0.0" y="325.5" width="160" height="154.5"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="602.66666666666663" width="207" height="293.33333333333337"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s67-BY-F6f">
-                                <rect key="frame" x="160" y="0.0" width="160" height="480"/>
-                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="207" y="0.0" width="207" height="896"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -148,24 +148,24 @@
             </objects>
             <point key="canvasLocation" x="855" y="800"/>
         </scene>
-        <!--View Controller-->
+        <!--Autolayout 7-->
         <scene sceneID="7QU-5g-WEd">
             <objects>
-                <viewController id="Qdu-Ls-MC8" sceneMemberID="viewController">
+                <viewController id="Qdu-Ls-MC8" userLabel="Autolayout 7" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Eh9-bc-weS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rSK-ss-a7b">
-                                <rect key="frame" x="0.0" y="80" width="320" height="320"/>
-                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="0.0" y="246" width="414" height="414"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="rSK-ss-a7b" secondAttribute="height" multiplier="1:1" id="Wl8-hf-KkW"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dHb-LP-ppz">
-                                <rect key="frame" x="80" y="160" width="160" height="160"/>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="103.66666666666669" y="349.66666666666669" width="207" height="207.00000000000006"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -185,25 +185,105 @@
             </objects>
             <point key="canvasLocation" x="1579" y="800"/>
         </scene>
+        <!--Autolayout 8-->
+        <scene sceneID="wBQ-Qv-o4R">
+            <objects>
+                <viewController storyboardIdentifier="Autolayout 8" id="Fnd-hb-uOp" userLabel="Autolayout 8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gg8-rA-Jwu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thanksgiving" translatesAutoresizingMaskIntoConstraints="NO" id="DEO-Rn-Zuo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="409"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gut-Wp-V0P">
+                                <rect key="frame" x="0.0" y="409" width="414" height="453"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="DEO-Rn-Zuo" firstAttribute="top" secondItem="8HI-lI-myx" secondAttribute="top" id="64K-C5-E2f"/>
+                            <constraint firstItem="DEO-Rn-Zuo" firstAttribute="bottom" secondItem="8HI-lI-myx" secondAttribute="bottom" id="APG-Bs-5rD"/>
+                            <constraint firstItem="Gut-Wp-V0P" firstAttribute="top" secondItem="8HI-lI-myx" secondAttribute="top" id="CfQ-Xr-ill"/>
+                            <constraint firstItem="Gut-Wp-V0P" firstAttribute="bottom" secondItem="8HI-lI-myx" secondAttribute="bottom" id="Iqv-UA-Bsh"/>
+                            <constraint firstItem="Gut-Wp-V0P" firstAttribute="trailing" secondItem="8HI-lI-myx" secondAttribute="trailing" id="Kd7-vz-6w0"/>
+                            <constraint firstItem="Gut-Wp-V0P" firstAttribute="top" secondItem="DEO-Rn-Zuo" secondAttribute="bottom" id="PAJ-IQ-DeR"/>
+                            <constraint firstItem="DEO-Rn-Zuo" firstAttribute="leading" secondItem="8HI-lI-myx" secondAttribute="leading" id="Raq-oc-Ybx"/>
+                            <constraint firstItem="Gut-Wp-V0P" firstAttribute="bottom" secondItem="8HI-lI-myx" secondAttribute="bottom" id="RgJ-hW-TRi"/>
+                            <constraint firstItem="DEO-Rn-Zuo" firstAttribute="trailing" secondItem="8HI-lI-myx" secondAttribute="trailing" id="WS0-zn-CIs"/>
+                            <constraint firstItem="DEO-Rn-Zuo" firstAttribute="width" secondItem="8HI-lI-myx" secondAttribute="width" multiplier="0.5" id="btT-jJ-AHE"/>
+                            <constraint firstItem="Gut-Wp-V0P" firstAttribute="leading" secondItem="DEO-Rn-Zuo" secondAttribute="trailing" constant="186" id="cO5-wV-dh5">
+                                <variation key="heightClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="DEO-Rn-Zuo" firstAttribute="leading" secondItem="8HI-lI-myx" secondAttribute="leading" id="iDe-3U-Yah"/>
+                            <constraint firstItem="DEO-Rn-Zuo" firstAttribute="top" secondItem="gg8-rA-Jwu" secondAttribute="top" id="mAV-j8-TFl"/>
+                            <constraint firstItem="DEO-Rn-Zuo" firstAttribute="height" secondItem="8HI-lI-myx" secondAttribute="height" multiplier="0.5" id="su2-gM-NZi"/>
+                            <constraint firstItem="Gut-Wp-V0P" firstAttribute="leading" secondItem="8HI-lI-myx" secondAttribute="leading" id="yFQ-Kv-T6w"/>
+                            <constraint firstItem="8HI-lI-myx" firstAttribute="trailing" secondItem="Gut-Wp-V0P" secondAttribute="trailing" id="zCV-aw-Mo2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8HI-lI-myx"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="64K-C5-E2f"/>
+                                <exclude reference="APG-Bs-5rD"/>
+                                <exclude reference="btT-jJ-AHE"/>
+                                <exclude reference="iDe-3U-Yah"/>
+                                <exclude reference="CfQ-Xr-ill"/>
+                                <exclude reference="Kd7-vz-6w0"/>
+                                <exclude reference="RgJ-hW-TRi"/>
+                                <exclude reference="cO5-wV-dh5"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="zCV-aw-Mo2"/>
+                                <include reference="64K-C5-E2f"/>
+                                <include reference="APG-Bs-5rD"/>
+                                <exclude reference="Raq-oc-Ybx"/>
+                                <exclude reference="WS0-zn-CIs"/>
+                                <include reference="btT-jJ-AHE"/>
+                                <include reference="iDe-3U-Yah"/>
+                                <exclude reference="mAV-j8-TFl"/>
+                                <exclude reference="su2-gM-NZi"/>
+                                <include reference="CfQ-Xr-ill"/>
+                                <exclude reference="Iqv-UA-Bsh"/>
+                                <include reference="Kd7-vz-6w0"/>
+                                <exclude reference="PAJ-IQ-DeR"/>
+                                <include reference="RgJ-hW-TRi"/>
+                                <include reference="cO5-wV-dh5"/>
+                                <exclude reference="yFQ-Kv-T6w"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PxV-dz-Gsb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2296.875" y="810.14492753623199"/>
+        </scene>
         <!--Autolayout 3-->
         <scene sceneID="0L3-ij-ftC">
             <objects>
                 <viewController storyboardIdentifier="Autolayout 3" id="Jhb-Ju-iCo" userLabel="Autolayout 3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LVr-QI-Ofz">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Md-6J-940" userLabel="Orange View">
-                                <rect key="frame" x="60" y="190" width="100" height="100"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="107" y="398" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="heK-So-Viy"/>
                                     <constraint firstAttribute="width" constant="100" id="s1K-uw-fB8"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" horizontalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ysa-4K-jwZ" userLabel="Teal View">
-                                <rect key="frame" x="159" y="190" width="100" height="100"/>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="206" y="398" width="100" height="100"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -227,17 +307,17 @@
             <objects>
                 <viewController title="Autolayout 4" id="1vp-qZ-VnN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CIG-PY-qqa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7dg-Kz-hnd">
-                                <rect key="frame" x="70" y="225" width="180" height="30"/>
+                                <rect key="frame" x="117" y="433" width="180" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOS-ek-S8M" customClass="RoundedButton" customModule="Auto_Layout" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
-                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal">
-                                            <color key="titleColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -247,23 +327,23 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjI-lg-a0N">
                                         <rect key="frame" x="50" y="0.0" width="30" height="30"/>
-                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal">
-                                            <color key="titleColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiU-wu-A2M">
                                         <rect key="frame" x="100" y="0.0" width="30" height="30"/>
-                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal">
-                                            <color key="titleColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2AO-UZ-5pV">
                                         <rect key="frame" x="150" y="0.0" width="30" height="30"/>
-                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal">
-                                            <color key="titleColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
                                 </subviews>
@@ -282,4 +362,7 @@
             <point key="canvasLocation" x="2289" y="115"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="thanksgiving" width="640" height="638"/>
+    </resources>
 </document>
